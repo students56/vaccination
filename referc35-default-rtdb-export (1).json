@@ -1,0 +1,89 @@
+{
+  "Student" : {
+    "info" : {
+      "-MkImz2UaDwrS4kXdzlA" : {
+        "Gender" : "Gender: Male",
+        "Grade" : "Grade 3",
+        "fName" : "Dhruv",
+        "lName" : "Vishal",
+        "rollNo" : "23"
+      },
+      "-MkIn484jn8tY47iOsaY" : {
+        "Gender" : "Gender: Male",
+        "Grade" : "Grade 3",
+        "fName" : "Dishant",
+        "lName" : "Reddy",
+        "rollNo" : "12"
+      },
+      "-MkIn7MCSlKN6KDb-qay" : {
+        "Gender" : "Gender: Female",
+        "Grade" : "Grade 3",
+        "fName" : "Anushka",
+        "lName" : "Raina",
+        "rollNo" : "25"
+      },
+      "-MkInAu46b4o9pZeJamq" : {
+        "Gender" : "Gender: Male",
+        "Grade" : "Grade 3",
+        "fName" : "Divyansh",
+        "lName" : "Leesa",
+        "rollNo" : "8"
+      },
+      "-MkIncgpK2ggFuV71EyA" : {
+        "Gender" : "Gender: Female",
+        "Grade" : "Grade 3",
+        "fName" : "Aviksha",
+        "lName" : "V",
+        "rollNo" : "1"
+      },
+      "-MkInrI_zq-WEwMxfkeU" : {
+        "Gender" : "Gender: Male",
+        "Grade" : "Grade 4",
+        "fName" : "Sheldon",
+        "lName" : "Cooper",
+        "rollNo" : "11"
+      },
+      "-MkIoGm4tjj1S__bpJpC" : {
+        "Gender" : "Gender: Female",
+        "Grade" : "Grade 2",
+        "fName" : "Missy",
+        "lName" : "Cooper",
+        "rollNo" : "11"
+      },
+      "-MkLq6e5fTpjhVfZmela" : {
+        "Gender" : "Gender: Male",
+        "Grade" : "Grade 4",
+        "fName" : "jho",
+        "lName" : "coopr",
+        "rollNo" : "12"
+      },
+      "-MkMpQ_Eb06AQ7pbG8aq" : {
+        "Gender" : "Gender: Male",
+        "Grade" : "Grade 3",
+        "fName" : "aditya",
+        "lName" : "R",
+        "rollNo" : "500"
+      },
+      "-MkbFM9Se5zytrnZrnvV" : {
+        "Gender" : "Gender: Male",
+        "Grade" : "Grade 3",
+        "fName" : "Dhyana",
+        "lName" : "S",
+        "rollNo" : "12"
+      },
+      "-MkbLIt1AdHRZ_jD090D" : {
+        "fName" : ""
+      },
+      "-MkbLY8mPXV45WHU81d5" : {
+        "fName" : "Good"
+      },
+      "-Mkley0Gza7drdMfbz23" : {
+        "Gender" : "Gender: Male",
+        "Grade" : "Grade 4",
+        "fName" : "anvik",
+        "lName" : "desh",
+        "rollNo" : "55"
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/9.1.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/9.1.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/9.1.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+    
+
+    <script>
+      // Your web app's Firebase configuration
+      //add here
+      // Initialize Firebase
+
+  // Import the functions you need from the SDKs you need
+//  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+// Your web app's Firebase configuration
+var firebaseConfig = {
+  apiKey: "AIzaSyDAdJJizLZAyo4Bjo1SytD_Le5LnZhhYQQ",
+  authDomain: "siriproject-ab5b7.firebaseapp.com",
+  databaseURL: "https://siriproject-ab5b7-default-rtdb.firebaseio.com",
+  projectId: "siriproject-ab5b7",
+  storageBucket: "siriproject-ab5b7.appspot.com",
+  messagingSenderId: "732271556415",
+  appId: "1:732271556415:web:9b6c1badf0f072180a458a"
+};
+firebase.initializeApp(firebaseConfig);
+
+
+  // var firebaseConfig = {
+  //   apiKey: "AIzaSyC9_jSe97kVIbE2z90LZNg5ZtBeKv8UHY4",
+  //   authDomain: "referc35.firebaseapp.com",
+  //   databaseURL: "https://referc35-default-rtdb.firebaseio.com",
+  //   projectId: "referc35",
+  //   storageBucket: "referc35.appspot.com",
+  //   messagingSenderId: "1036412972360",
+  //   appId: "1:1036412972360:web:bcb1c1e01f261dd308577d"
+  // };
+  // firebase.initializeApp(firebaseConfig);
+  // Initialize Firebase
+  //const app = initializeApp(firebaseConfig);
+</script>
+      <!--  -->
+ 
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <form>
+      <div class="main" id="section1">
+      <label for="fname">First Name:</label> 
+     
+      <input type="text"  id="fname" > <br> <br>
+  
+      <label for="Lname">Last Name:</label>
+     
+      <input type="text"  id="lname" > <br> <br>
+      <label for="Rno">Roll Number:</label>
+     
+      <input type="number" id="rno" > <br> <br>
+          <label for="age">Age:</label>
+       
+          <input type="text" id="age" maxlength="3"> <br> <br>
+      
+       <!-- <input type="radio" name="gender" id="male"> 
+     
+       <label for="m">Male</label>
+      
+      <input type="radio" name="Gender" id="female"> 
+    
+      <label for="f">Female</label>   <br> <br> -->
+     
+      <!-- <select id="language">
+        <option value="en" selected>English</option>
+        <option value="es">Español</option>
+        <option value="pt">Português</option>
+      </select> -->
+
+    Gender:
+    <input type="radio" name="gender" value="Male">Male
+    <input type="radio" name="gender" value="Female">Female
+    <input type="radio" name="gender" value="Others">Others
+    <br>
+
+      <select id="grd">
+          <option value="Grade 1">Grade 1</option>
+          <option value="Grade 2">Grade 2</option>
+          <option value="Grade 3">Grade 3</option>
+          <option value="Grade 4">Grade 4</option>
+          
+      </select><br> <br>
+  
+      
+  <!-- <p>Note: Remove the scroll-behavior property to remove smooth scrolling.</p> -->
+  </form>
+  <!-- //<button id="submit" onclick= 'save()'>submit</button> <br> <br> -->
+  </div>
+  <br><br><br> <br>
+ <!-- // <button id ="insert()" >INSERT </button> -->
+  <button onclick="INSERT()">INSERT</button>
+  <button onclick="SELECT()">SELECT</button>
+  <button id ="UPDATE" >UPDATE</button>
+  <button id ="DELETE" > DELETE</button>
+  
+  </body>
+</html>

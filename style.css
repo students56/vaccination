@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 100px;
+    border: 2px solid black;
+  }
+  
+
+  body{
+    background: #b37fb8;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  #section1 {
+    height: 200px;
+    background-color: pink;
+  }
+  
+  #section2 {
+    height: 600px;
+    background-color: yellow;
+  }
+  
